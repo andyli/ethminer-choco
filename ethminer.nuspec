@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ethminer</id>
+        <version>0.11.0</version>
+        <title>ethminer</title>
+        <authors>Paweł Bylica</authors>
+        <owners>andyli</owners>
+        <licenseUrl>https://github.com/ethereum-mining/ethminer/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/ethereum-mining/ethminer</projectUrl>
+        <bugTrackerUrl>https://github.com/ethereum-mining/ethminer/issues</bugTrackerUrl>
+        <projectSourceUrl>https://github.com/ethereum-mining/ethminer</projectSourceUrl>
+        <packageSourceUrl>https://github.com/andyli/ethminer-choco</packageSourceUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>Ethereum miner with OpenCL, CUDA and stratum support</summary>
+        <description>The ethminer is an Ethereum GPU mining worker. It origins in cpp-ethereum project (where GPU mining has been discontinued). Then hugely improved in Genoil's fork.</description>
+        <releaseNotes>https://github.com/ethereum-mining/ethminer/releases</releaseNotes>
+        <tags>ethereum ethminer</tags>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>
