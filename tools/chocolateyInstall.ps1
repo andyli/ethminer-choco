@@ -1,4 +1,4 @@
 Install-ChocolateyZipPackage -PackageName 'ethminer' `
- -Url 'https://github.com/ethereum-mining/ethminer/releases/download/v0.11.0/ethminer-0.11.0-Windows.zip' `
- -Checksum '5566ff166b23b5d61063c7bf91f8b494c04b9e4e916f856e8f92f748b5aaef35' -ChecksumType 'sha256' `
+ -Url64bit 'https://github.com/ethereum-mining/ethminer/releases/download/v0.12.0/ethminer-0.12.0-Windows.zip' `
+ -Checksum64 '423b67be130b122fb6a35f2a926fbbc64a64f6d6295d80decebb739c224d47a5' -ChecksumType64 'sha256' `
  -UnzipLocation "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
