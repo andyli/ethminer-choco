@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ethminer</id>
-        <version>0.14.0</version>
+        <version>0.17.1</version>
         <title>ethminer</title>
-        <authors>Paweł Bylica</authors>
+        <authors>Andrea Lanfranchi, EoD, Genoil, goobur, Marius van der Wijden, Paweł Bylica, Philipp Andreas, Stefan Oberhumer</authors>
         <owners>andyli</owners>
         <licenseUrl>https://github.com/ethereum-mining/ethminer/blob/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/ethereum-mining/ethminer</projectUrl>
